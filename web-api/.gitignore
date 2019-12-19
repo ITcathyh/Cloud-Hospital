@@ -1,0 +1,6 @@
+.idea/
+target/
+logs/
+*.iml
+data/elasticsearch
+exec.sh

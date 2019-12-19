@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Class-Path: pagehelper-spring-boot-autoconfigure-1.2.10.jar listenable
+ future-9999.0-empty-to-avoid-conflict-with-guava.jar pagehelper-sprin
+ g-boot-starter-1.2.10.jar hamcrest-core-1.3.jar animal-sniffer-annota
+ tions-1.17.jar log4j-over-slf4j-1.7.25.jar accessors-smart-1.1.jar sp
+ ring-context-4.3.13.RELEASE.jar netty-3.10.5.Final.jar spring-data-co
+ mmons-1.13.9.RELEASE.jar spring-data-redis-1.8.9.RELEASE.jar ehcache-
+ 2.10.4.jar jul-to-slf4j-1.7.25.jar spring-boot-test-1.5.9.RELEASE.jar
+  joda-time-2.9.9.jar jcl-over-slf4j-1.7.25.jar zookeeper-3.4.10.jar m
+ ybatis-spring-boot-autoconfigure-2.0.1.jar tomcat-juli-8.5.23.jar myb
+ atis-spring-2.0.1.jar jedis-2.9.0.jar spring-session-data-redis-1.3.1
+ .RELEASE.jar spring-tx-4.3.13.RELEASE.jar spring-oxm-4.3.13.RELEASE.j
+ ar javax.annotation-api-1.2.jar druid-1.1.0.jar mybatis-spring-boot-s
+ tarter-2.0.1.jar spring-expression-4.3.13.RELEASE.jar loading-cache-0
+ .0.4.Jar spring-boot-autoconfigure-1.5.9.RELEASE.jar pagehelper-5.1.8
+ .jar spring-boot-starter-logging-1.5.9.RELEASE.jar failureaccess-1.0.
+ 1.jar fastjson-1.2.56.jar spring-boot-1.5.9.RELEASE.jar protobuf-java
+ -3.6.1.jar zkclient-0.10.jar junit-4.12.jar jline-0.9.94.jar spring-b
+ eans-4.3.13.RELEASE.jar spring-boot-starter-cache-1.5.9.RELEASE.jar e
+ rror_prone_annotations-2.2.0.jar jsr305-3.0.2.jar jsqlparser-1.2.jar 
+ spring-jdbc-4.3.13.RELEASE.jar hamcrest-library-1.3.jar assertj-core-
+ 2.6.0.jar spring-core-4.3.13.RELEASE.jar checker-qual-2.5.2.jar mysql
+ -connector-java-8.0.14.jar spring-data-keyvalue-1.2.9.RELEASE.jar htt
+ pcore-4.4.8.jar android-json-0.0.20131108.vaadin1.jar json-smart-2.2.
+ 1.jar commons-pool2-2.4.3.jar spring-aop-4.3.13.RELEASE.jar lombok-1.
+ 18.4.jar httpclient-4.5.3.jar mockito-core-1.10.19.jar log4j-1.2.16.j
+ ar mybatis-3.5.1.jar libthrift-0.9.2.jar aspectjweaver-1.8.13.jar obj
+ enesis-2.1.jar json-path-2.2.0.jar slf4j-api-1.7.25.jar spring-boot-s
+ tarter-aop-1.5.9.RELEASE.jar spring-session-1.3.1.RELEASE.jar spring-
+ context-support-4.3.13.RELEASE.jar guava-27.1-jre.jar commons-codec-1
+ .10.jar spring-boot-starter-test-1.5.9.RELEASE.jar logback-core-1.1.1
+ 1.jar snakeyaml-1.17.jar spring-test-4.3.13.RELEASE.jar spring-boot-t
+ est-autoconfigure-1.5.9.RELEASE.jar j2objc-annotations-1.1.jar asm-5.
+ 0.3.jar logback-classic-1.1.11.jar spring-boot-starter-jdbc-1.5.9.REL
+ EASE.jar tomcat-jdbc-8.5.23.jar jsonassert-1.4.0.jar spring-boot-star
+ ter-1.5.9.RELEASE.jar common-0.0.21.Jar slf4j-log4j12-1.7.25.jar
+Main-Class: top.itcat.Main
+

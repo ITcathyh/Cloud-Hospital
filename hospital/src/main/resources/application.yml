@@ -1,0 +1,43 @@
+service:
+  port: 10006
+
+spring:
+  datasource:
+    druid:
+      master:
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://47.100.217.150:3306/hospital?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+        initialSize: 1
+        minIdle: 1
+        maxActive: 20
+      slave1:
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/hospital?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+        initialSize: 1
+        minIdle: 1
+        maxActive: 20
+  redis:
+    host: 47.100.217.150
+    port: 6382
+    password:
+    pool:
+      max-idle: 8
+      min-idle: 1
+      max-active: 8
+#    sentinel:
+#      nodes: 47.100.217.150:26379 #,172.17.0.2:26379
+#      master: mymaster
+  session:
+    store-type: none
+
+logging:
+  level.top.itcat: info
+  level.top.itcat.mapper: info
+  file: logs/app.log
+
+mybatis-plus:
+  type-aliases-package: top.itcat.entity

@@ -1,0 +1,28 @@
+server:
+  port: 6789
+  compression:
+    enabled: true
+    mime-types: application/json,text/html
+
+spring:
+  resources:
+    add-mappings: false
+  mvc:
+    throw-exception-if-no-handler-found: true
+  redis:
+    host: 47.100.217.150
+    port: 6382
+    password:
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+#    sentinel:
+#      nodes: 47.100.217.150:26379 #,172.17.0.2:26379
+#      master: mymaster
+  kafka:
+    bootstrap-servers: localhost:9092
+
+logging:
+  file: logs/app.log
+  level: info

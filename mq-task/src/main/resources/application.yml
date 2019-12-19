@@ -1,0 +1,42 @@
+spring:
+  redis:
+    host: 47.100.217.150
+    port: 6379
+    password:
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+    sentinel:
+      nodes: 47.100.217.150:26379 #,172.17.0.2:26379
+      master: mymaster
+#  jms:
+#    pub-sub-domain: false
+#    listener:
+#      acknowledge-mode: client
+#      concurrency: 3
+#      max-concurrency: 8
+#  activemq:
+#    user: admin
+#    password: admin
+#    broker-url: tcp://localhost:61616
+#    pool:
+#      enabled: true
+#      max-connections: 10
+#    packages:
+#      trust-all: true
+#  data:
+#    elasticsearch:
+#      cluster-nodes: 47.100.217.150:9300
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: mq_task
+      enable-auto-commit: false
+    listener:
+      ack-mode: manual
+
+logging:
+  level.top.itcat: debug
+  level.top.itcat.mapper: debug
+  file: logs/app.log

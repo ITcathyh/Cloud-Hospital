@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: zuul
+
+server:
+  port: 6700
+zuul:
+#  ignored-services: "*"
+#  prefix: /fengyuntec
+  routes:
+    api:
+#      url: http://127.0.0.1:6789/
+      path: /**
+      serviceId: web-api
+      sensitiveHeaders: "*"
+
+
+ribbon:
+  ConnectTimeout: 5000
+  ReadTimeout: 10000
+  eureka:
+    enabled: false
+web-api:
+  ribbon:
+    listOfServers: http://127.0.0.1:6789/
